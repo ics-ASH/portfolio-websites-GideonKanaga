@@ -1,16 +1,47 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gideon's Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: #333; 
+
+    .nav-item {
+      flex: 1;
+      text-align: center;
+      background-color: #333;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-item a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    .nav-item:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
   <div class="navbar">
-    <a href="https://ics-ash.github.io/portfolio-websites-GideonKanaga/">Home</a>
-    <a href="TechTuesday.html">Tech Tuesday</a>
-    <a href="Weekly-Journal.html">Weekly Journal</a>
-    <a href="Class-Projects.html">Class Projects</a>
-    <a href="Useful-Bookmarks.html">Useful Bookmarks</a>
-    <a href="Final-Project.html">Final Project</a>
+    <div class="nav-item"><a href="https://ics-ash.github.io/portfolio-websites-GideonKanaga/">Home</a></div>
+    <div class="nav-item"><a href="TechTuesday.html">Tech Tuesday</a></div>
+    <div class="nav-item"><a href="Weekly-Journal.html">Weekly Journal</a></div>
+    <div class="nav-item"><a href="Class-Projects.html">Class Projects</a></div>
+    <div class="nav-item"><a href="Useful-Bookmarks.html">Useful Bookmarks</a></div>
+    <div class="nav-item"><a href="Final-Project.html">Final Project</a></div>
   </div>
 </body>
 </html>
